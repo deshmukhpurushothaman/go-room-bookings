@@ -1,0 +1,10 @@
+mode: set
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:22.13,24.16 2 0
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:24.16,26.3 1 0
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:28.2,37.16 4 0
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:40.18,55.16 10 1
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:55.16,58.3 2 0
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/main.go:60.2,67.12 6 1
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/middleware.go:10.45,21.2 3 1
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/middleware.go:24.50,26.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/cmd/web/routes.go:12.49,37.2 18 1

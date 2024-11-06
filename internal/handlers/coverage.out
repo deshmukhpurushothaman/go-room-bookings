@@ -1,0 +1,22 @@
+mode: set
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:24.47,28.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:31.33,33.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:35.67,39.2 3 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:42.68,52.2 5 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:54.74,62.2 4 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:64.78,66.16 2 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:66.16,69.3 2 0
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:71.2,84.19 6 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:84.19,93.3 4 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:95.2,97.66 2 0
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:100.71,102.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:104.69,106.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:108.75,110.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:112.70,114.2 1 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:116.79,120.2 3 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:127.79,134.16 3 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:134.16,136.3 1 0
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:138.2,139.14 2 1
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:142.81,144.9 2 0
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:144.9,149.3 4 0
+github.com/deshmukhpurushothaman/go-room-bookings/internal/handlers/handlers.go:151.2,157.4 4 0
