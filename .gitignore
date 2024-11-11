@@ -1,0 +1,5 @@
+.idea
+coverage.out
+run.sh
+.DS_Store
+database.yml
