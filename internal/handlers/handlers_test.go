@@ -32,21 +32,6 @@ var theTests = []struct {
 	{"ms", "/majors-suite", "GET", http.StatusOK},
 	{"sa", "/search-availability", "GET", http.StatusOK},
 	{"contact", "/contact", "GET", http.StatusOK},
-	// {"mr", "/make-reservation", "GET", []postData{}, http.StatusOK},
-	// {"post-search-availability", "/search-availability", "POST", []postData{
-	// 	{key: "start", value: "2024-01-01"},
-	// 	{key: "end", value: "2024-02-02"},
-	// }, http.StatusOK},
-	// {"post-search-availability-json", "/search-availability-json", "POST", []postData{
-	// 	{key: "start", value: "2024-01-01"},
-	// 	{key: "end", value: "2024-02-02"},
-	// }, http.StatusOK},
-	// {"make reservation post", "/make-reservation", "POST", []postData{
-	// 	{key: "first_name", value: "John"},
-	// 	{key: "last_name", value: "Smith"},
-	// 	{key: "email", value: "abc@abc.com"},
-	// 	{key: "phone", value: "1234567890"},
-	// }, http.StatusOK},
 }
 
 func TestHandlers(t *testing.T) {
@@ -537,7 +522,7 @@ func TestRepository_AvailabilityJSON(t *testing.T) {
 	// since we have no rooms available, we expect to get status http.StatusSeeOther
 	// this time we want to parse JSON and get the expected response
 	var j jsonResponse
-	err := json.Unmarshal([]byte(rr.Body.String()), &j)
+	err := json.Unmarshal(rr.Body.Bytes(), &j)
 	if err != nil {
 		t.Error("failed to parse json!")
 	}
@@ -577,7 +562,7 @@ func TestRepository_AvailabilityJSON(t *testing.T) {
 	handler.ServeHTTP(rr, req)
 
 	// this time we want to parse JSON and get the expected response
-	err = json.Unmarshal([]byte(rr.Body.String()), &j)
+	err = json.Unmarshal(rr.Body.Bytes(), &j)
 	if err != nil {
 		t.Error("failed to parse json!")
 	}
@@ -611,7 +596,7 @@ func TestRepository_AvailabilityJSON(t *testing.T) {
 	handler.ServeHTTP(rr, req)
 
 	// this time we want to parse JSON and get the expected response
-	err = json.Unmarshal([]byte(rr.Body.String()), &j)
+	err = json.Unmarshal(rr.Body.Bytes(), &j)
 	if err != nil {
 		t.Error("failed to parse json!")
 	}
@@ -650,7 +635,7 @@ func TestRepository_AvailabilityJSON(t *testing.T) {
 	handler.ServeHTTP(rr, req)
 
 	// this time we want to parse JSON and get the expected response
-	err = json.Unmarshal([]byte(rr.Body.String()), &j)
+	err = json.Unmarshal(rr.Body.Bytes(), &j)
 	if err != nil {
 		t.Error("failed to parse json!")
 	}
